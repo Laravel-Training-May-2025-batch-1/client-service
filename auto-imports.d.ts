@@ -71,6 +71,7 @@ declare global {
   const useLocale: typeof import('vuetify')['useLocale']
   const useMiddleware: typeof import('./src/composables/middleware.js')['useMiddleware']
   const useModel: typeof import('vue')['useModel']
+  const useProductResource: typeof import('./src/resources/product-service/product.js')['useProductResource']
   const useResource: typeof import('./src/resources/index.js')['useResource']
   const useRoute: typeof import('vue-router')['useRoute']
   const useRouter: typeof import('vue-router')['useRouter']
@@ -160,6 +161,7 @@ declare module 'vue' {
     readonly useLocale: UnwrapRef<typeof import('vuetify')['useLocale']>
     readonly useMiddleware: UnwrapRef<typeof import('./src/composables/middleware.js')['useMiddleware']>
     readonly useModel: UnwrapRef<typeof import('vue')['useModel']>
+    readonly useProductResource: UnwrapRef<typeof import('./src/resources/product-service/product.js')['useProductResource']>
     readonly useResource: UnwrapRef<typeof import('./src/resources/index.js')['useResource']>
     readonly useRoute: UnwrapRef<typeof import('vue-router')['useRoute']>
     readonly useRouter: UnwrapRef<typeof import('vue-router')['useRouter']>

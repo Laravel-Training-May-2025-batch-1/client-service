@@ -94,6 +94,7 @@
     "useDisplay": true,
     "useLocale": true,
     "useRtl": true,
-    "useTheme": true
+    "useTheme": true,
+    "useProductResource": true
   }
 }
