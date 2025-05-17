@@ -1,0 +1,10 @@
+{
+  "appId": "com.example.app",
+  "appName": "Client Service",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "http://${process.env.HOST_IP}:3000",
+    "cleartext": true
+  }
+}

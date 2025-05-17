@@ -1,0 +1,5 @@
+{
+	"appId": "admin.portal",
+	"appName": "admin-portal",
+	"webDir": "dist"
+}

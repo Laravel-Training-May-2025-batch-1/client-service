@@ -1,0 +1,7 @@
+{
+  "name": "client-service",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
